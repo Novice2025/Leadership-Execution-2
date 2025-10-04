@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Leadership & Execution Playbook - Inglês para Comunicação Profissional</title>
+    <!-- Chosen Palette: Dark Professional (Red/Gold on Dark Gray, plus Formal Blue and Calm Green for differentiation) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Poppins:wght{500;700}&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Styling for Professional Feel */
+        :root {
+            --netflix-red: #E50914;
+            --accent-gold: #FFD700;
+            --dark-bg: #141414;
+            --mid-bg: #1F1F1F;
+            --formal-blue: #3b82f6;
+            --calm-green: #34D399;
+            --warning-orange: #F59E0B;
+        }
+        body {
+            background-color: var(--dark-bg);
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+        }
+        .header-nav {
+            background-color: rgba(20, 20, 20, 0.95);
+        }
+        .hero-title {
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .lesson-card {
+            background-color: var(--mid-bg);
+            border: 1px solid #333;
+            transition: transform 0.2s, box-shadow 0.3s;
+            border-radius: 0.75rem;
+        }
+        .lesson-card:hover {
+            transform: scale(1.01);
+            box-shadow: 0 0 30px rgba(52, 211, 153, 0.2); /* Changed to Calm Green focus */
+        }
+        .english-explanation-box {
+            background-color: #2b2b2b;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            color: #ccc;
+            border-left: 4px solid var(--calm-green); /* Changed to Calm Green */
+            margin-top: 1rem;
+        }
+        .pt-translation {
+            background-color: #333333;
+            color: #E0E0E0;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            margin-top: 0.5rem;
+            border-left: 3px solid var(--accent-gold);
+        }
+        .flow-core {
+            border: 3px solid var(--calm-green); /* Changed to Calm Green */
+            box-shadow: 0 0 15px rgba(52, 211, 153, 0.4); /* Changed to Calm Green */
+        }
+        .exercise-box {
+            border: 2px solid var(--warning-orange);
+            background-color: #302616;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header Navigation -->
+    <header class="header-nav fixed top-0 left-0 right-0 z-50 p-4 shadow-xl">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-calm-green font-poppins">EXECUTION</h1>
+            <nav class="hidden sm:block">
+                <a href="#series-1" class="text-sm font-medium hover:text-green-400 mx-3 transition-colors">1. Delegation</a>
+                <a href="#series-2" class="text-sm font-medium hover:text-green-400 mx-3 transition-colors">2. Optimization & Review</a>
+                <a href="#series-3" class="text-sm font-medium hover:text-green-400 mx-3 transition-colors">3. Informal Lang.</a>
+                <a href="#exercise" class="text-sm font-medium hover:text-green-400 mx-3 transition-colors">Exercise</a>
+                <a href="#terminology" class="text-sm font-medium hover:text-green-400 mx-3 transition-colors">Terminology</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20 pb-10">
+        <!-- HERO Section -->
+        <section class="max-w-7xl mx-auto px-4 mb-12">
+            <div class="relative rounded-xl overflow-hidden shadow-2xl">
+                <div class="h-96 w-full bg-cover bg-center" style="background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, var(--dark-bg) 100%), url('https://placehold.co/1280x500/1F1F1F/FFFFFF?text=Clear+Leadership');">
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                        <p class="text-xl font-medium text-gray-300 mb-2">Skill Training | Advanced Leadership</p>
+                        <h2 class="hero-title text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
+                            The <span class="text-calm-green">Leadership</span> & Execution Playbook
+                        </h2>
+                        <p class="max-w-2xl text-lg text-gray-200">
+                           Mastering the language of delegation, accountability, and optimization, alongside **natural, conversational English** for dynamic team environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Flow -->
+        <section class="max-w-7xl mx-auto px-4 my-16">
+            <h3 class="text-4xl font-bold mb-6 text-center border-b-2 border-calm-green pb-2 text-calm-green">
+                The Proactive Leadership Flow
+            </h3>
+            <p class="text-center text-gray-300 mb-8 max-w-3xl mx-auto">
+                Effective leadership requires both formal clarity (who, how, why) and informal fluency (opinions, interests, clarity).
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 text-center">
+                <div class="lesson-card p-4 rounded-lg flow-core">
+                    <p class="text-4xl mb-2">💡</p>
+                    <h4 class="text-lg font-bold text-white">FORMAL: WHO?</h4>
+                    <p class="text-gray-400 italic text-xs">Propriedade (Ownership)</p>
+                </div>
+                <div class="lesson-card p-4 rounded-lg">
+                    <p class="text-4xl mb-2">🧑‍💻</p>
+                    <h4 class="text-lg font-bold text-white">FORMAL: HOW?</h4>
+                    <p class="text-gray-400 italic text-xs">Processo (Streamlining)</p>
+                </div>
+                <div class="lesson-card p-4 rounded-lg flow-core">
+                    <p class="text-4xl mb-2">⚙️</p>
+                    <h4 class="text-lg font-bold text-white">FORMAL: WHY?</h4>
+                    <p class="text-gray-400 italic text-xs">Análise (Investigation)</p>
+                </div>
+                <div class="lesson-card p-4 rounded-lg">
+                    <p class="text-4xl mb-2">💬</p>
+                    <h4 class="text-lg font-bold text-white">INFORMAL: OPINION</h4>
+                    <p class="text-gray-400 italic text-xs">Interesse e Clareza</p>
+                </div>
+                <div class="lesson-card p-4 rounded-lg">
+                    <p class="text-4xl mb-2">🤝</p>
+                    <h4 class="text-lg font-bold text-white">INFORMAL: CONSENSUS</h4>
+                    <p class="text-gray-400 italic text-xs">Comunicação Suave</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series 1: Clear Delegation and Ownership (The 'Who') -->
+        <section id="series-1" class="py-10">
+            <h3 class="text-2xl font-bold text-calm-green ml-4 mb-4 md:text-3xl max-w-7xl mx-auto px-4 border-l-4 border-calm-green pl-4">
+                Series 1: Clear Delegation and Ownership (The "Who")
+            </h3>
+             <p class="text-gray-400 max-w-7xl mx-auto px-4 mb-6">
+                Comunique claramente a quem pertence a responsabilidade e quem é o ponto de contato, garantindo que a delegação seja total.
+            </p>
+            <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario A: Formal Project Assignment</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"Joe will lead this project"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Explanation:</p>
+                        <p class="text-sm">This is the most direct way to establish clear ownership. "**Joe will lead this project**" makes Joe the non-negotiable **point of contact for the task** and **eliminates ambiguity** regarding final authority.</p>
+                        <div class="pt-translation"><p class="text-sm">"Joe vai liderar este projeto. (Atribuição formal e clara do líder do projeto)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario B: Direct Delegation</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"Basically you are taking the lead on this brainstorming session"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Explanation:</p>
+                        <p class="text-sm">A slightly less formal, but still firm way of assigning authority. Saying you are "**taking the lead**" means you own the process and outcomes. This phrase **sets the tone for collaboration** under your guidance.</p>
+                        <div class="pt-translation"><p class="text-sm">"Basicamente, você está assumindo a liderança (taking the lead) nesta sessão de brainstorming. (Delegação direta de autoridade)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario C: Cross-functional Coordination</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"I will coordinate with the marketing department to launch the ad campaign"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Explanation:</p>
+                        <p class="text-sm">To "**coordinate**" indicates responsibility for managing dependencies between teams, ensuring the campaign is **launched** on time and with **minimal friction**.</p>
+                        <div class="pt-translation"><p class="text-sm">"Eu vou coordenar com o departamento de marketing... (Foco na gestão de dependências entre equipes)."</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series 2: Efficiency, Review & Accountability (The 'How' and 'Why') -->
+        <section id="series-2" class="py-10">
+            <h3 class="text-2xl font-bold text-calm-green ml-4 mb-4 md:text-3xl max-w-7xl mx-auto px-4 border-l-4 border-calm-green pl-4">
+                Series 2: Efficiency, Review & Accountability (The "How" and "Why")
+            </h3>
+             <p class="text-gray-400 max-w-7xl mx-auto px-4 mb-6">
+                Foco em otimização de processos, feedback estratégico e a importância da investigação (investigation) em vez de culpa (blame).
+            </p>
+            <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario D: Defining Optimization</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"Streamline something means to simplify a process to make it more effective and more efficient"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Explanation:</p>
+                        <p class="text-sm">This is a great definition to align the team. **Streamlining** leads to processes that **run smoothly** and is measured by a **key metric** like time-to-market or cost reduction.</p>
+                        <div class="pt-translation"><p class="text-sm">"Otimizar (streamline) significa simplificar um processo para torná-lo mais eficaz e mais eficiente. (Definição para alinhamento estratégico)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario E: Root Cause Analysis</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"We must investigate the cause of this delay"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Strategy:</p>
+                        <p class="text-sm">Use this to shift the focus from *who* failed to *what* failed. Leaders should always **investigate the cause of this delay** to find the structural issue and prevent recurrence.</p>
+                        <div class="pt-translation"><p class="text-sm">"Temos que investigar a causa deste atraso. (Foco na causa raiz e não em culpar pessoas)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario F: Soft Strategic Feedback</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"Reconsider it"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Strategy:</p>
+                        <p class="text-sm">This is a strong but non-confrontational way to tell someone to go back to the drawing board. Using "**Reconsider it**" respects their ownership while clearly signaling a necessary change in direction.</p>
+                        <div class="pt-translation"><p class="text-sm">"Reconsidere isso. (Feedback estratégico que mantém a responsabilidade na pessoa delegada)."</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Series 3: Informal Professional Language & Opinions -->
+        <section id="series-3" class="py-10">
+            <h3 class="text-2xl font-bold text-calm-green ml-4 mb-4 md:text-3xl max-w-7xl mx-auto px-4 border-l-4 border-calm-green pl-4">
+                Series 3: Informal Professional Language & Opinions
+            </h3>
+             <p class="text-gray-400 max-w-7xl mx-auto px-4 mb-6">
+                Fluência natural inclui saber expressar opiniões, clareza e incerteza de forma casual, mas ainda profissional.
+            </p>
+            <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario G: Expressing Suitability/Interest</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"It's right up my alley" / "I'm really into"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Usage:</p>
+                        <p class="text-sm">Both express strong interest or suitability. Use "**I'm really into**" for deep interest (e.g., *I'm really into AI research*). "**It's right up my alley**" means it perfectly suits your skills or preferences (e.g., *This complex data analysis is right up my alley*).</p>
+                        <div class="pt-translation"><p class="text-sm">"É a minha praia / Eu estou muito interessado. (Para expressar forte interesse ou adequação)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario H: Expressing Clarity and Consensus</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"It's pretty much straightforward" / "We do share our thoughts and opinions quite a lot"</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Usage:</p>
+                        <p class="text-sm">Use "**It's pretty much straightforward**" to confirm that a plan or process is simple and clear. The second phrase is great for summarizing collaborative discussions and agreement.</p>
+                        <div class="pt-translation"><p class="text-sm">"É bem direto / Nós realmente compartilhamos nossas ideias bastante. (Para confirmar clareza e consenso)."</p></div>
+                    </div>
+                </div>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Scenario I: Expressing Uncertainty</h4>
+                    <p class="text-sm font-semibold text-white">Phrase:</p>
+                    <p class="text-lg">"I have no clue."</p>
+                    <div class="english-explanation-box">
+                        <p class="font-bold text-calm-green">Usage:</p>
+                        <p class="text-sm">A very common informal expression for "I don't know." While acceptable in casual settings, for professional emails or meetings, a softer alternative is better: "I'm currently unsure, but I can find out." "**I have no clue**" is highly casual.</p>
+                        <div class="pt-translation"><p class="text-sm">"Eu não tenho a menor ideia. (Muito informal. Use com cautela em ambientes de trabalho formais)."</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Terminology Table -->
+        <section id="terminology" class="max-w-7xl mx-auto px-4 my-16">
+            <h3 class="text-4xl font-bold mb-6 text-center border-b-2 border-calm-green pb-2 text-calm-green">
+                Key Terminology in Leadership & Execution
+            </h3>
+            <div class="lesson-card p-6 rounded-xl overflow-x-auto">
+                <table class="min-w-full text-left text-sm divide-y divide-[#333]">
+                    <thead class="uppercase tracking-wider bg-calm-green bg-opacity-30 text-green-300">
+                        <tr>
+                            <th scope="col" class="py-3 px-6 font-bold w-1/4 rounded-tl-lg">Term / Concept</th>
+                            <th scope="col" class="py-3 px-6 font-bold rounded-tr-lg">Sentence Example at Work</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-[#333] text-gray-200">
+                        <!-- Formal Execution & Delegation -->
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Joe will lead this project</td><td class="py-4 px-6 italic">"For clear accountability, **Joe will lead this project** starting Monday."</td></tr>
+                        
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Point of contact</td><td class="py-4 px-6 italic">"Ensure the client knows who the **point of contact** is for all technical queries."</td></tr>
+
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Basically you are taking the lead on this brainstorming session</td><td class="py-4 px-6 italic">"Since you have the most expertise, **basically you are taking the lead on this brainstorming session**."</td></tr>
+                        
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Assigning</td><td class="py-4 px-6 italic">"The next step is **assigning** the resources required for Phase Two of the rollout."</td></tr>
+
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">I'll facilitate the brainstorming session in today's meeting and generate some new innovative ideas</td><td class="py-4 px-6 italic">"As a leader, **I'll facilitate the brainstorming session in today's meeting and generate some new innovative ideas** to kick off the new product."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">I will coordinate with the marketing department to launch the ad campaign</td><td class="py-4 px-6 italic">"To ensure a smooth release, **I will coordinate with the marketing department to launch the ad campaign** next week."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Run smoothly</td><td class="py-4 px-6 italic">"Our goal is to ensure the deployment process will **run smoothly** from testing to release."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Streamline something means to simplify a process to make it more effective and more efficient</td><td class="py-4 px-6 italic">"Remember, **Streamline something means to simplify a process to make it more effective and more efficient**."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">We must investigate the cause of this delay</td><td class="py-4 px-6 italic">"Instead of blaming the team, **we must investigate the cause of this delay** to prevent future recurrence."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Reconsider it</td><td class="py-4 px-6 italic">"That proposal seems too risky; I suggest you **Reconsider it** before the final presentation."</td></tr>
+
+                        <!-- Informal & Conversational Language -->
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">We do share our thoughts and opinions quite a lot.</td><td class="py-4 px-6 italic">"The team dynamic is great; **we do share our thoughts and opinions quite a lot**."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">It's pretty much straightforward</td><td class="py-4 px-6 italic">"Don't worry about the instructions, **it's pretty much straightforward** once you start."</td></tr>
+                        
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">Straightforward</td><td class="py-4 px-6 italic">"The new expense reporting process is quite **straightforward** and easy to follow."</td></tr>
+                        
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">I have no clue.</td><td class="py-4 px-6 italic">"When asked about the new policy, Sarah replied, '**I have no clue** what the update is, I'll check the intranet.'"</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">I'm really into</td><td class="py-4 px-6 italic">"I joined the data science group because **I'm really into** machine learning."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">It's right up my alley.</td><td class="py-4 px-6 italic">"That new project involving Python and advanced algorithms? **It's right up my alley**."</td></tr>
+                        <tr class="hover:bg-[#2A2A2A]"><td class="py-4 px-6 font-semibold">I'll facilitate the brainstorming session in today's meeting and generate some new innovative ideas</td><td class="py-4 px-6 italic">"I'll facilitate the brainstorming session in today's meeting and generate some new innovative ideas."</td></tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Consolidation Exercise -->
+        <section id="exercise" class="max-w-4xl mx-auto px-4 my-16">
+            <h3 class="text-4xl font-bold mb-6 text-center border-b-2 border-warning-orange pb-2 text-warning-orange">
+                Consolidation Exercise: Dual Focus Response
+            </h3>
+             <p class="text-gray-400 text-center mb-8">
+                Pratique usando tanto a linguagem formal de execução quanto as expressões informais.
+            </p>
+            <div class="exercise-box p-8 rounded-xl shadow-2xl">
+                <div class="mb-6">
+                    <p class="text-lg font-semibold text-calm-green mb-2">Scenario 1: Delegation and Interest</p>
+                    <p class="text-white mb-3 italic">Assign the lead for a data analysis task, and confirm your personal enthusiasm for the topic.</p>
+                    <p class="text-sm text-gray-400 font-medium">Your Response (Use "taking the lead" and "I'm really into" or "right up my alley"):</p>
+                    <textarea class="w-full h-16 p-2 mt-1 rounded bg-gray-700 text-white border border-gray-600 focus:ring-warning-orange focus:border-warning-orange"></textarea>
+                </div>
+
+                <div class="mb-6">
+                    <p class="text-lg font-semibold text-calm-green mb-2">Scenario 2: Process Correction and Clarity</p>
+                    <p class="text-white mb-3 italic">A team member proposes a complicated solution. You need to redirect their thinking toward simplification and confirm the initial goal was easy.</p>
+                    <p class="text-sm text-gray-400 font-medium">Your Response (Use "Reconsider it" and "It's pretty much straightforward"):</p>
+                    <textarea class="w-full h-16 p-2 mt-1 rounded bg-gray-700 text-white border border-gray-600 focus:ring-warning-orange focus:border-warning-orange"></textarea>
+                </div>
+                
+                 <div>
+                    <p class="text-lg font-semibold text-calm-green mb-2">Scenario 3: Troubleshooting and Coordination</p>
+                    <p class="text-white mb-3 italic">A campaign failed to launch. You must start the investigation and coordinate with another department.</p>
+                    <p class="text-sm text-gray-400 font-medium">Your Response (Use "investigate the cause of this delay" and "coordinate with"):</p>
+                    <textarea class="w-full h-16 p-2 mt-1 rounded bg-gray-700 text-white border border-gray-600 focus:ring-warning-orange focus:border-warning-orange"></textarea>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Summary Zone -->
+        <section id="summary" class="max-w-xl mx-auto px-4 my-16 text-center">
+            <div class="p-8 rounded-xl bg-calm-green bg-opacity-20 border-2 border-calm-green shadow-lg">
+                <h3 class="text-3xl font-bold text-green-400 mb-4 font-poppins">
+                    Executive Summary | The Core Principle
+                </h3>
+                <p class="text-lg text-gray-200 max-w-3xl mx-auto">
+                    A liderança eficaz equilibra a clareza formal ("**Joe will lead this project**") com a fluência informal (**"It's right up my alley"**). Sempre que houver um problema, o foco deve ser a solução (**"We must investigate the cause of this delay"**) e a otimização (**"Streamline something means to simplify..."**), garantindo que as operações **run smoothly**.
+                </p>
+                <div class="mt-6 text-xl text-white font-bold">
+                    Be clear, be efficient, and be fluent.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 text-gray-500 text-sm border-t border-gray-800 mt-10">
+        @ Daby
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        const initializeFirebase = async () => {
+            try {
+                const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
+                const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+                if (firebaseConfig) {
+                    const app = initializeApp(firebaseConfig);
+                    const auth = getAuth(app);
+                    if (initialAuthToken) await signInWithCustomToken(auth, initialAuthToken);
+                    else await signInAnonymously(auth);
+                    console.log("Firebase initialized.");
+                }
+            } catch (error) {
+                console.error("Firebase init error:", error);
+            }
+        };
+        window.onload = initializeFirebase;
+    </script>
+</body>
+</html>
